@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Perfil do usuário</title>
+</head>
+<body>
+  <<div class="main-page">
+    <h1>Perfil</h1>
+    <div class="user-photo">
+      <img id="display-photo" src="" alt="Foto do usuário">
+    </div>
+    <div class="info">
+      <p><strong>Nome:</strong> <span id="display-name"></span></p>
+      <p><strong>Data de Nascimento:</strong> <span id="display-birthdate"></span></p>
+      <p><strong>CEP:</strong> <span id="display-cep"></span></p>
+      <p><strong>Email:</strong> <span id="display-email"></span></p>
+    </div>
+    <a class="btn-edit" href="#">Editar Perfil</a>
+  </div>
+
+  <div class="edit-profile">
+
+  <div class="edit-profile">
+    <h1>Editar Perfil</h1>
+    <form id="edit-form">
+      <div class="form-group">
+        <label for="edit-email">Email:</label>
+        <input type="text" id="edit-email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="edit-password">Senha:</label>
+        <input type="password" id="edit-password" name="password">
+      </div>
+      <div class="form-group">
+        <label for="edit-cep">CEP:</label>
+        <input type="text" id="edit-cep" name="cep">
+      </div>
+      <div class="form-group">
+        <label for="photo">Foto:</label>
+        <input type="file" id="photo" name="photo">
+        <label for="photo" class="file-upload">Selecionar Foto</label>
+      </div>
+      <button type="submit" class="btn-save" onclick="alert('Perfil alterado com sucesso!')">Salvar</button>
+    </form>
+  </div>
+<script src="./js/main.js"></script>
+</body>
+</html>

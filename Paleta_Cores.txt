@@ -1,0 +1,4 @@
+#Paleta de cores Varella#
+#fcca43 - amarelo
+#041424 - azul
+#fff - branco
